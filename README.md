@@ -8,14 +8,14 @@ En effort to predict the upcoming(2020) admission rates at UCPH with a simple OL
 <p>
 As stated in the intro the model is a simple OLS model consisting of  
 </p>
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;kvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1})_{i}+1)^2+\beta_2(\frac{(1. prioritets ansøgere_{t}}{optaget_{t-1}+1)^2_{i}+\beta_3ansøgere_{i}+\beta_4(1.prioritets ansøgere)_{i}" title="\Large kvotient_{i} = \beta_0 + \beta_1 (\frac{ansøgere_{t}}{optaget_{t-1})_{i}+1)^2 + \beta_2 (\frac{(1. prioritets ansøgere_{t}}{optaget_{t-1}+1)^2_{i} + \beta_3 ansøgere_{i} + \beta_4 (1.prioritets ansøgere)_{i}"/>
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;kkvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}+1)^2_{i}+\beta_3ansøgere_{i}+\beta_4(1.prioritets-ansøgere)_{i} " title="\Large kvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}+1)^2_{i}+\beta_3ansøgere_{i}+\beta_4(1.prioritets-ansøgere)_{i} "/>
 
 
 
 <h3> The results </h3>
 
 <p>
-As noted in the former section there appears to not be a directly linear relationship between the ratio and admission rates. But the model does still explaing approximately 56 percent of the variance and can therefor be used as proxy for the upcomming admission rates, 2020. The model shows the following admission rates for 2020:
+As noted in the former section there appears to not be a directly linear relationship between the ratio and admission rates. But the model does still explaing approximately 56 percent of the variance and can therefore be used as proxy for the upcomming admission rates, 2020. The model shows the following admission rates for 2020:
 <p/>
 
 | studie                                                               |   admission rates |
