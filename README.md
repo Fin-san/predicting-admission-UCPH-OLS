@@ -18,62 +18,40 @@ As stated in the intro the model is a simple OLS model consisting of
 As noted in the former section there appears to not be a directly linear relationship between the ratio and admission rates. But the model does still explaing approximately 56 percent of the variance and can therefore be used as proxy for the upcomming admission rates, 2020. The model shows the following admission rates for 2020:
 <p/>
 
-| studie                                                               |   admission rates |
-|:---------------------------------------------------------------------|-------------:|
-| AudiologopÃ¦di                                                       |      8.73897 |
-| Dansk                                                                |      6.95246 |
-| Engelsk                                                              |      6.94058 |
-| EuropÃ¦isk etnologi                                                  |      7.56384 |
-| Film- og medievidenskab                                              |      9.69613 |
-| Filosofi                                                             |      8.90979 |
-| Forhistorisk arkÃ¦ologi                                              |      8.17731 |
-| Fransk sprog og kultur                                               |      7.90387 |
-| GrÃ¦sk, klassisk                                                     |     10.6252  |
-| Historie                                                             |      7.05007 |
-| Indianske sprog og kulturer                                          |      8.34162 |
-| Italiensk sprog og kultur                                            |      7.71798 |
-| Klassisk arkÃ¦ologi                                                  |      8.45023 |
-| Kommunikation og it                                                  |      7.3677  |
-| Kunsthistorie                                                        |      8.38844 |
-| Latin                                                                |      8.33277 |
-| Lingvistik                                                           |      8.57471 |
-| Litteraturvidenskab                                                  |      8.73261 |
-| MellemÃ¸stens sprog og samfund (arabisk, hebraisk, persisk, tyrkisk) |      8.06727 |
-| Musikvidenskab                                                       |      8.15898 |
-| PÃ¦dagogik                                                           |      8.09836 |
-| Religionsvidenskab                                                   |      7.71062 |
-| Retorik                                                              |      8.0173  |
-| Spansk sprog og kultur                                               |      7.96412 |
-| Teater- og performancestudier                                        |      8.98272 |
-| Tysk sprog og kultur                                                 |      8.14623 |
-| Jura                                                                 |      9.59742 |
-| Biokemi                                                              |      8.09904 |
-| Biologi                                                              |      8.37898 |
-| Datalogi                                                             |      7.87353 |
-| Forsikringsmatematik                                                 |     10.3529  |
-| FÃ¸devarer og ernÃ¦ring                                              |      9.0388  |
-| Geografi og geoinformatik                                            |      9.23657 |
-| Geologi-geoscience                                                   |      9.59957 |
-| Husdyrvidenskab                                                      |      8.26925 |
-| JordbrugsÃ¸konomi                                                    |      9.20827 |
-| Kemi                                                                 |      9.1938  |
-| Matematik                                                            |      8.55714 |
-| Matematik-Ã¸konomi                                                   |      9.13271 |
-| MolekylÃ¦r biomedicin                                                |      9.87298 |
-| Nanoscience                                                          |      9.37023 |
-| Naturressourcer                                                      |      9.23724 |
-| Antropologi                                                          |     10.7202  |
-| Psykologi                                                            |     12.9229  |
-| Samfundsfag                                                          |     10.435   |
-| Sociologi                                                            |      9.71184 |
-| Statskundskab                                                        |      9.89544 |
-| Økonomi                                                             |      8.36085 |
-| Farmaci                                                              |      7.62468 |
-| Folkesundhedsvidenskab                                               |      9.70841 |
-| Medicin                                                              |      9.96285 |
-| Odontologi                                                           |     11.5232  |
-| Sundhed og informatik                                                |      9.03463 |
-| VeterinÃ¦rmedicin                                                    |     11.279   |
+| studie                        |   kvo_2020 |   kvo_2019 |   change, pct. |
+|:------------------------------|-----------:|-----------:|---------------:|
+| AudiologopÃ¦di                |       8.74 |        9.2 |             -5 |
+| EuropÃ¦isk etnologi           |       7.56 |        7.2 |              5 |
+| Film- og medievidenskab       |       9.7  |       10.1 |             -4 |
+| Filosofi                      |       8.91 |        9.5 |             -6 |
+| Forhistorisk arkÃ¦ologi       |       8.18 |        7   |             17 |
+| Historie                      |       7.05 |        7.3 |             -3 |
+| Klassisk arkÃ¦ologi           |       8.45 |        7.7 |             10 |
+| Kommunikation og it           |       7.37 |        8.3 |            -11 |
+| Kunsthistorie                 |       8.39 |        9.1 |             -8 |
+| Lingvistik                    |       8.57 |        9.8 |            -13 |
+| Litteraturvidenskab           |       8.73 |       10.3 |            -15 |
+| PÃ¦dagogik                    |       8.1  |        9.3 |            -13 |
+| Religionsvidenskab            |       7.71 |        6.4 |             20 |
+| Retorik                       |       8.02 |        8.6 |             -7 |
+| Teater- og performancestudier |       8.98 |        9   |             -0 |
+| Jura                          |       9.6  |        9.7 |             -1 |
+| Biokemi                       |       8.1  |        6.6 |             23 |
+| Datalogi                      |       7.87 |        7   |             12 |
+| Forsikringsmatematik          |      10.35 |       11.5 |            -10 |
+| Matematik-Ã¸konomi            |       9.13 |        9.8 |             -7 |
+| MolekylÃ¦r biomedicin         |       9.87 |       11.2 |            -12 |
+| Antropologi                   |      10.72 |       11.1 |             -3 |
+| Psykologi                     |      12.92 |       11.8 |              9 |
+| Samfundsfag                   |      10.43 |       10.4 |              0 |
+| Sociologi                     |       9.71 |       10.7 |             -9 |
+| Statskundskab                 |       9.9  |       11.1 |            -11 |
+| Ãkonomi                               |       8.36 |        7.9 |              6 |
+| Farmaci                       |       7.62 |        8.3 |             -8 |
+| Folkesundhedsvidenskab        |       9.71 |        9.6 |              1 |
+| Medicin                       |       9.96 |       11.1 |            -10 |
+| Odontologi                    |      11.52 |       10.8 |              7 |
+| VeterinÃ¦rmedicin             |      11.28 |       11   |              3 |
 
 A few notes should be added to the table. First and foremost, the added bonus "hurtig start bonus" is removed from 2020, this will most likely have an ernomous impact on the admission rates and will, everything else equal, lower the admission rates compared to former years. Furthermore, the model assumes stationarity in the general level of grades, so if the mean grade of all students applying to UCPH is higher, it will have an increasing effect on the admission rates. 
 
