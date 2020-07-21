@@ -6,14 +6,18 @@ En effort to predict the upcoming(2020) admission rates at UCPH with a simple OL
 
 <h3> The model </h3>
 <p>
-As stated in the intro the model is a simple OLS model consisting of  
+As stated in the intro the model is a simple OLS model build with the following relationship.  
 </p>
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;kvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}_{i}+1)^2+\beta_3ansøgere_{i}+\beta_4(1.prioritetsansøgere)_{i}" title="\Largekvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}_{i}+1)^2+\beta_3ansøgere_{i}+\beta_4(1.prioritetsansøgere)_{i}"/>
-
+<p>
+The OLS results are as follow:
+</p>
+![ols_results](https://user-images.githubusercontent.com/35741586/88041756-23184400-cb4b-11ea-8d55-9e2cd43035fe.png)
 
 
 <h3> The conclusion </h3>
 
+<h5> Predicting the admission rates for this year, 2020 </h5>
 <p>
 As noted in the former section there appears to not be a directly linear relationship between the ratio and admission rates. But the model does still explaing approximately 72 percent of the variance and can therefore be used as proxy for the upcomming admission rates, 2020. The model shows the following admission rates for 2020:
 <p/>
@@ -53,6 +57,6 @@ As noted in the former section there appears to not be a directly linear relatio
 | Odontologi                    |      11.52 |       10.8 |              7 |
 | VeterinÃ¦rmedicin             |      11.28 |       11   |              3 |
 
-A few notes should be added to the table. First and foremost, the added bonus "hurtig start bonus" is removed from 2020, this will most likely have an ernomous impact on the admission rates and will, everything else equal, lower the admission rates compared to former years. Furthermore, the model assumes stationarity in the general level of grades, so if the mean grade of all students applying to UCPH is higher, it will have an increasing effect on the admission rates. 
+A few notes should be added to the table. First and foremost, the added bonus "hurtig start bonus" is removed from 2020, this will most likely have an enormous impact on the admission rates and will, everything else equal, lower the admission rates compared to former years. Furthermore, the model assumes stationarity in the general level of grades, so if the mean grade of all students applying to UCPH is higher, it will have an increasing effect on the admission rates. 
 
 
