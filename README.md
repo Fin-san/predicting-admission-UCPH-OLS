@@ -8,10 +8,14 @@ En effort to predict the upcoming(2020) admission rates at UCPH with a simple OL
 <p>
 As stated in the intro the model is a simple OLS model build with the following relationship.  
 </p>
+
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;kvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}_{i}+1)^2+\beta_3ansøgere_{i}+\beta_4(1.prioritetsansøgere)_{i}" title="\Largekvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}_{i}+1)^2+\beta_3ansøgere_{i}+\beta_4(1.prioritetsansøgere)_{i}"/>
+
 <p>
 The OLS results are as follow:
 </p>
+
+
 ![ols_results](https://user-images.githubusercontent.com/35741586/88041756-23184400-cb4b-11ea-8d55-9e2cd43035fe.png)
 
 
