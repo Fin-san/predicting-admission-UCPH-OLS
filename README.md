@@ -1,6 +1,6 @@
 <h1> predicting-admission-UCPH-OLS </h1>
 <p>
-En effort to predict the upcoming(2020) admission rates at UCPH with a simple OLS regression. By scraping UCPH website for data regarding; number of applicants, number of accepted students. The current general consensus regarding creation of admission rates is that originates directly from the ratio between number of applicants and number of accepted students, noted as ratio, if this notion were to be correct we should find a linear relationship between the ratio and admission rate. 
+En effort to predict the upcoming(2020) admission rates at UCPH with a simple OLS regression. By scraping UCPH website for data regarding; number of applicants and number of accepted students. The current general consensus regarding formation of admission rates is that they originate directly from the ratio between number of applicants and number of accepted students, noted as ratio, if this notion were to be correct we should find a linear relationship between the ratio and admission rate. 
 
 </p>
 
@@ -20,7 +20,7 @@ The OLS results are as follow:
 </p>
 
 
-![ols_results_robust](https://user-images.githubusercontent.com/35741586/88043662-0d584e00-cb4e-11ea-8560-421dacdc0c51.png)
+![ols_results_robust](https://user-images.githubusercontent.com/35741586/88045463-dafb2080-cb4e-11ea-90c2-d9e16a272e8e.png)
 
 
 <h3> The conclusion </h3>
