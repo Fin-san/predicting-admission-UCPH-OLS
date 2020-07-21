@@ -20,7 +20,7 @@ The OLS results are as follow:
 </p>
 
 
-![ols_results](https://user-images.githubusercontent.com/35741586/88041756-23184400-cb4b-11ea-8d55-9e2cd43035fe.png)
+![ols_results_robust](https://user-images.githubusercontent.com/35741586/88043662-0d584e00-cb4e-11ea-8560-421dacdc0c51.png)
 
 
 <h3> The conclusion </h3>
