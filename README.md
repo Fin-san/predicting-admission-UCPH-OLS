@@ -9,7 +9,11 @@ En effort to predict the upcoming(2020) admission rates at UCPH with a simple OL
 As stated in the intro the model is a simple OLS model build with the following relationship.  
 </p>
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;kvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}_{i}+1)^2+\beta_3ansøgere_{i}+\beta_4(1.prioritetsansøgere)_{i}" title="\Largekvotient_{i}=\beta_0+\beta_1(\frac{ansøgere_{t}}{optaget_{t-1}})_{i}+1)^2+\beta_2(\frac{(1.prioritetsansøgere_{t}}{optaget_{t-1}}_{i}+1)^2+\beta_3ansøgere_{i}+\beta_4(1.prioritetsansøgere)_{i}"/>
+<a href="https://www.codecogs.com/eqnedit.php?latex=kvotient_{i}=\beta_0&plus;\beta_1(\frac{\text{ansoegere}_{t}}{\text{optaget}x_{t-1}})_{i})&plus;\beta_2(\frac{(\text{1.&space;prioritets&space;ansoegere}_{t}}{\text{optaget}_{t-1}})_{i}&plus;\beta_3\text{ansoegere}_{i}&plus;\beta_4(\text{1.&space;prioritets&space;ansoegere})_{i}&plus;X_{i}" target="_blank">
+ <img src="https://latex.codecogs.com/png.latex?kvotient_{i}=\beta_0&plus;\beta_1(\frac{\text{ansoegere}_{t}}{\text{optaget}x_{t-1}})_{i})&plus;\beta_2(\frac{(\text{1.&space;prioritets&space;ansoegere}_{t}}{\text{optaget}_{t-1}})_{i}&plus;\beta_3\text{ansoegere}_{i}&plus;\beta_4(\text{1.&space;prioritets&space;ansoegere})_{i}&plus;X_{i}" title="kvotient_{i}=\beta_0+\beta_1(\frac{\text{ansoegere}_{t}}{\text{optaget}x_{t-1}})_{i})+\beta_2(\frac{(\text{1. prioritets ansoegere}_{t}}{\text{optaget}_{t-1}})_{i}+\beta_3\text{ansoegere}_{i}+\beta_4(\text{1. prioritets ansoegere})_{i}+X_{i}" /></a>
+
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=X_{i}=\beta_5human_{i}&plus;\beta_6jura_{i}&plus;\beta_7natur_{i}&plus;\beta_8samf_{i}&plus;\beta_9sund_{i}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?X_{i}=\beta_5human_{i}&plus;\beta_6jura_{i}&plus;\beta_7natur_{i}&plus;\beta_8samf_{i}&plus;\beta_9sund_{i}" title="X_{i}=\beta_5human_{i}+\beta_6jura_{i}+\beta_7natur_{i}+\beta_8samf_{i}+\beta_9sund_{i}" /></a>
 
 <p>
 The OLS results are as follow:
